@@ -7,8 +7,6 @@ import android.widget.Button;
 
 import com.vk.sdk.VKSdk;
 
-import java.util.ArrayList;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
