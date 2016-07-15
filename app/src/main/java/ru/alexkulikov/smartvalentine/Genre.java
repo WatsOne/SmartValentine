@@ -32,6 +32,16 @@ public enum Genre {
         this.name = name;
     }
 
+    public static String getName(int id) {
+        for (Genre genre : values()) {
+            if (genre.getId() == id) {
+                return genre.getName();
+            }
+        }
+
+        return OTHER.getName();
+    }
+
     public int getId() {
         return id;
     }
